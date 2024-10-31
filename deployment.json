@@ -1,0 +1,25 @@
+{
+  "network": "Testnet",
+  "chains": {
+    "Avalanche": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xF970BE6543Cd20FF1F7570959949e31fa16FBa7B",
+      "manager": "0xeBa6f576e5c2F772F0EBF48fC788375846B64531",
+      "token": "0x528B3020621d0Bff4627483d34bF4dE21afaF08E",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x70a22a7567105B76CB8Eb29d4E9bb8d10510E2cD",
+          "pauser": "0xF970BE6543Cd20FF1F7570959949e31fa16FBa7B"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {}
+      },
+      "pauser": "0xF970BE6543Cd20FF1F7570959949e31fa16FBa7B"
+    }
+  }
+}
